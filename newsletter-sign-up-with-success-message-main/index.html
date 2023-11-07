@@ -32,13 +32,16 @@
           <li><p>Measuring to ensure updates are a sucess</p></li>
           <li><p>And much more!</p></li>
         </ul>
-        <label for="input">Email adress</label>
-        <input id="input" type="email" placeholder="email@company.com" />
-        <button id="submit-button">Subscribe to monthly newsletter</button>
+
+        <form id="form">
+          <label for="input">Email address</label>
+          <input id="input" type="email" placeholder="email@company.com" />
+          <button id="submit-button">Subscribe to monthly newsletter</button>
+        </form>
       </div>
       <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
     </div>
-    <div class="success">
+    <div id="success-box" class="success">
       <div>
         <img src="./assets/images/icon-success.svg" alt="" />
         <h1>Thanks for subscribing!</h1>
@@ -47,8 +50,9 @@
           <span id="email">email@company.com</span>. Please open it and click
           the button inside to confirm your subscription.
         </p>
-        <button>Dismiss message</button>
+        <button id="dismiss-button">Dismiss message</button>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
