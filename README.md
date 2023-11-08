@@ -16,9 +16,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/Skärmbild%202023-11-08%20213643.png)
-![](./assets/images/Skärmbild%202023-11-08%20213658.png)
-![](./assets/images/Skärmbild%202023-11-08%20213714.png)
+![](./newsletter-sign-up-with-success-message-main/assets/images/Skärmbild%202023-11-08%20213643.png)
+![](./newsletter-sign-up-with-success-message-main/./assets/images/Skärmbild%202023-11-08%20213658.png)
+![](./newsletter-sign-up-with-success-message-main/./assets/images/Skärmbild%202023-11-08%20213714.png)
 
 ### Built with
 
