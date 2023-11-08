@@ -129,16 +129,17 @@ img {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   box-sizing: border-box;
-  width: 500px;
-  height: 500px;
-  padding: 20px;
+  width: 400px;
+  height: 400px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 40px;
 }
 
 .success div img {
-  width: 30px;
+  width: 40px;
+  margin-left: -5px;
 }
 
 span {
