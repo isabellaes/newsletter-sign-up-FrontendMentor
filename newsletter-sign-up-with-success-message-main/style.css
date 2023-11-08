@@ -71,7 +71,7 @@ h1 {
 
 label {
   color: hsl(234, 29%, 20%);
-  font-size: 16px;
+  font-size: 12px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   margin-bottom: 5px;
@@ -90,6 +90,19 @@ input {
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
+input:valid {
+  background-color: hsl(0, 0%, 100%);
+}
+input:user-invalid {
+  background-color: hsla(4, 100%, 67%, 0.237);
+  border: hsl(4, 100%, 67%) solid 1px;
+}
+
+.error {
+  color: hsl(0, 0%, 100%);
 }
 
 button {
@@ -106,6 +119,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: hsl(4, 100%, 67%);
 }
 
 img {

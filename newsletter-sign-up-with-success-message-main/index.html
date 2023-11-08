@@ -35,8 +35,17 @@
 
         <form id="form">
           <label for="input">Email address</label>
-          <input id="input" type="email" placeholder="email@company.com" />
-          <button id="submit-button">Subscribe to monthly newsletter</button>
+          <label for="input" class="error">Valid email required</label>
+          <input
+            id="input"
+            type="email"
+            placeholder="email@company.com"
+            required
+          />
+
+          <button type="submit" id="submit-button" class="button">
+            Subscribe to monthly newsletter
+          </button>
         </form>
       </div>
       <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
@@ -50,7 +59,7 @@
           <span id="email">email@company.com</span>. Please open it and click
           the button inside to confirm your subscription.
         </p>
-        <button id="dismiss-button">Dismiss message</button>
+        <button id="dismiss-button" class="button">Dismiss message</button>
       </div>
     </div>
     <script src="script.js"></script>
